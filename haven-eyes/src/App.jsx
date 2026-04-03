@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from './components/navbar'
 import Hero from './components/hero'
+import Feature from './components/feature'
 import Product from './components/product'
-import Image from './components/image'
 import Footer from './components/footer'
 
 const App = () => {
@@ -10,12 +10,10 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
+      <Feature />
       <Product />
-      <Image />
       <Footer />
     </div>
      )
-
-}
-
+};
 export default App

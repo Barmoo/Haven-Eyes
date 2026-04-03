@@ -2,21 +2,35 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="min-[150%] px-0 py-0"> {/* full viewport height */}
-      <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8 bg-gray-50 h-full">
-        {/* Left: writeup */}
-        <div className="w-full flex flex-row justify-center h-100 px-6 md:px-12">
-          <h1 className="text-4xl md:text-[76px] font-bold mb-3 leading-tight">
-            Book Your Apponitments today
-          </h1>
+    <section className="h-screen flex items-center justify-center bg-gray-50 px-6">
+      <div className="max-w-4xl w-full text-center">
+
+        {/* Heading */}
+        <h1 className="text-3xl text-green-600 md:text-5xl font-bold mb-8 whitespace-nowrap">
+          Book Your Appointments Today
+        </h1>
+
+        {/* Buttons */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-xl justify-center mx-auto">
+
+          <button className="bg-green-700 text-white py-3 px-2 rounded-full font-semibold hover:bg-green-700 transition">
+            Book an eye test
+          </button>
+
+          <button className="bg-green-700 text-white py-3 px-2 rounded-full font-semibold hover:bg-green-700 transition">
+            Book a hearing test
+          </button>
+
+          <button className="bg-green-700 text-white py-3 px-2 rounded-full font-semibold hover:bg-green-700 transition">
+            Book a contact lens appointment
+          </button>
+
+          <button className="bg-green-700 text-white py-3 px-2 rounded-full font-semibold hover:bg-green-700 transition">
+            Request a home visit
+          </button>
+
         </div>
-        <div>
-        <button>Book an eye test</button>
-        <button>Book a hearing test</button>
-        <button>Book a contact lens Appointment</button>
-        <button>Request a home visit</button>
-        </div>
-      
+
       </div>
     </section>
   );
