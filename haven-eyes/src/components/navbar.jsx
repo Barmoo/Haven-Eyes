@@ -67,7 +67,7 @@ const Navbar = () => {
           <li>Offers</li>
           <li>search icon</li>
           <li>
-            <button className="bg-green-600 text-white px-10 py-2 rounded-full">Book Appointment</button>
+            <button className="bg-[#004B2E] text-white px-10 py-2 rounded-full">Book Appointment</button>
           </li>
         </ul>
       </div>
